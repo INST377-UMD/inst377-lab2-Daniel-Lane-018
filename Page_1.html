@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sports News Subscription</title>
+        <style>
+            body {
+                background-color: rgb(226, 215, 215);
+            }
+            .input-container {
+                margin: 20px;
+                padding: 10px;
+                width: 300px;
+            }
+            label {
+                font-size: 20px;
+            }
+            input[type="submit"] {
+                background-color: blue;
+                color: white;
+                border: none;
+                padding: 10px 15px;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+            input[type="submit"]:hover {
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Sports News Subscription</h1>
+        <form action="Thanks_page.html">
+            <div class="input-container">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="JDoe@gmail.com" required>
+            </div>
+            <br>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </body>
+</html>
